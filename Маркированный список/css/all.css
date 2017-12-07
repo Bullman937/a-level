@@ -1,0 +1,14 @@
+body {
+	background-color: #ddd; /* Цвет фона */
+}
+a {
+	color: #000000; /* Задать черный цвет ссылкам */
+	text-decoration: none; /* Убрать подчеркивание ссылок */
+}
+a:hover {
+	color: #008000; /* Задать зеленый цвет ссылкам при наведении */
+	text-decoration: underline; /* Подчеркивание ссылок при наведении */
+}
+ul {
+	list-style-image: url(img/Mark.png); /* Ссылка на изображение галочки */
+}

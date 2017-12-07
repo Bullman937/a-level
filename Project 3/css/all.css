@@ -1,0 +1,35 @@
+.main{
+	width: 250px;
+	height: 600px;
+	border: 2px solid black;
+	margin: 0 auto;
+	background: #e8e8e8;
+}
+.red{
+	width: 150px;
+    height: 150px;
+    background: #cc0000;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 35px;
+
+}
+.yellow{
+	width: 150px;
+    height: 150px;
+    background: #fcff00;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 35px;
+}
+.green{
+	width: 150px;
+    height: 150px;
+    background: #18962f;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
