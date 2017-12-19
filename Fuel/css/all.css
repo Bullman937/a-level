@@ -1,0 +1,19 @@
+body{
+	font-family: sans-serif;
+}
+h4{
+	margin-bottom: 5px;
+}
+legend{
+	font-size: 14px;
+}
+input{
+	display: block;
+	margin-bottom: 14px;
+}
+.fuel{
+	width: 400px;
+	border: 2px solid #ddd;
+	margin: 0 auto;
+	margin-top: 50px;
+}
