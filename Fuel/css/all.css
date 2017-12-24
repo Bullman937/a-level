@@ -1,19 +1,53 @@
 body{
 	font-family: sans-serif;
+	background: url(../img/back.jpg) no-repeat center top / cover;
 }
 h4{
 	margin-bottom: 5px;
+	color: #ddd;
 }
-legend{
-	font-size: 14px;
+a{
+	color: #fff;
 }
-input{
-	display: block;
-	margin-bottom: 14px;
+a:hover {
+	text-decoration: none;
 }
 .fuel{
+	border: none;
+}
+.container{
+	margin: 160px auto 0 auto;
+	background-color: rgba(24, 33, 52, 0.6); /*Чтобы сделать фон прозрачным, необходимо конвертировать цвет в RGBA и в конце прописать прозрачность 60% = 0,6*/
 	width: 400px;
-	border: 2px solid #ddd;
-	margin: 0 auto;
-	margin-top: 50px;
+	text-align: center;
+	box-shadow: 0px -4px 0px 0px rgba(58,219,253,1);
+}
+.container img {
+	width: 100px;
+	height: 100px;
+	margin-top: -50px;
+	border: 5px solid #1a394f;
+	border-radius: 50%;
+}
+#value_1, #value_2, #value_3{
+	padding-left: 5px;
+	margin-top: 20px;
+	height: 30px;
+	width: 300px;
+}
+#button_1{
+	margin-top: 25px;
+	padding: 10px 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #2ca8c6;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
+#button_1:hover{
+	background: #fff;
+	transition: 0.5s;
+	color: #2c536c;
 }
